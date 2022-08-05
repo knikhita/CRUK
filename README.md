@@ -1,4 +1,4 @@
-##Assumption for this assignment as a Lead QA
+##Pre-considerations as a Executioner
 ```
 1. More focused on creating test-architecture rather than adding individual TCs 
 2. Added Automated PR & Merge requests validations using travis.yml & action.yml
@@ -13,7 +13,8 @@
  ##Important
 
  ```
- For security reasons : sensitive data in env file is replaced by env.example file > QA needs to create env.json file seperatly in fixtures folder after cloning this repo.
+ For security reasons : sensitive data in env file is replaced by env.example file.
+ QA needs to create env.json file seperatly in fixtures folder after cloning this repo.
  ```
 
 ## Installing
