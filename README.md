@@ -1,4 +1,4 @@
-##Pre-considerations as a Executioner
+## Pre-considerations as a Executioner
 ```
 1. More focused on creating test-architecture rather than adding individual TCs 
 2. Added Automated PR & Merge requests validations using travis.yml & action.yml
@@ -10,7 +10,7 @@
 
 ```
 
- ##Important
+ ## Important
 
  ```
  For security reasons : sensitive data in env file is replaced by env.example file.
