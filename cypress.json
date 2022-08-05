@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://app.pws.int.cruk.org/",
+  "pluginsFile": false,
+  "supportFile": false,
+  "screenshotOnRunFailure": true
+
+}

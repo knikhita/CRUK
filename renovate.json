@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "commitMessage": "{{semanticPrefix}}{{#if isDonation}}donation deps or locks{{else}}Update {{depName}} to {{newVersion}} {{/if}}",
+  "prTitle": "{{semanticPrefix}}{{#if isDonation}}donation{{else}}Update{{/if}} dependency {{depName}} to version {{newVersion}} ",
+  "major": {
+    "automerge": false
+  },
+  "minor": {
+    "automerge": false
+  },
+  "prHourlyLimit": 2,
+  "updateNotScheduled": false,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "separatePatchReleases": true,
+  "separateMultipleMajor": true,
+  "masterIssue": true,
+  "labels": [
+    "type: dependencies",
+    "renovate"
+  ],
+  "ignoreDeps": [
+    "grunt",
+    "grunt-cli",
+    "grunt-contrib-clean",
+    "grunt-contrib-coffee",
+    "grunt-contrib-copy",
+    "grunt-contrib-cssmin",
+    "grunt-contrib-uglify",
+    "grunt-contrib-watch",
+    "grunt-exec",
+    "grunt-ngmin",
+    "grunt-preprocess",
+    "grunt-ssh",
+    "node-sass",
+    "nodemon"
+  ]
+}
