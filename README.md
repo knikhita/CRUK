@@ -1,4 +1,4 @@
-## Pre-considerations as a Executioner
+## Pre-assumptions as a Lead & Executioner
 ```
 1. More focused on creating test-architecture rather than adding individual TCs 
 2. Added Automated PR & Merge requests validations using travis.yml & action.yml
